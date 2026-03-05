@@ -6,6 +6,7 @@
     };
 
     includes = [
+      den.aspects.hyprlauncher
       den.aspects.hyprpaper
       den.aspects.waybar
     ];
