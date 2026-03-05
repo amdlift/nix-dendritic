@@ -1,8 +1,14 @@
+{ den, ... }:
 {
   den.aspects.hyprland = {
     nixos = {
       programs.hyprland.enable = true;
     };
+
+    includes = [
+      den.aspects.hyprpaper
+      den.aspects.waybar
+    ];
 
     homeManager = {
       wayland.windowManager.hyprland = {

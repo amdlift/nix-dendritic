@@ -7,8 +7,6 @@
       den.aspects.system_desktop
       den.aspects.nvidia
       den.aspects.hyprland
-      den.aspects.waybar
-      den.aspects.hyprpaper
       den.aspects.sddm
       den.aspects.vscode
       den.aspects.bibata-cursor
