@@ -17,10 +17,8 @@
       { pkgs, lib, config, ... }:
       {
         environment.systemPackages = [
-          pkgs.hello
           pkgs.git
           pkgs.brightnessctl
-          pkgs.kitty
           pkgs.firefox
           ];
 
