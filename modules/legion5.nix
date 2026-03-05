@@ -11,6 +11,8 @@
       den.aspects.nvidia
       den.aspects.hyprland
       den.aspects.sddm
+      den.aspects.vscode
+      den.aspects.git
     ];
 
     nixos =
@@ -69,6 +71,8 @@
           pkgs.vim
           pkgs.ghostty
           ];
+
+	nixpkgs.config.allowUnfree = true;
       };
   };
 }
