@@ -1,0 +1,9 @@
+{ den, ... }:
+{
+  den.aspects.system_minimal = {
+    includes = [
+      den.aspects.systemd
+      den.aspects.network-manager
+    ];
+  };
+}

@@ -4,10 +4,7 @@
   den.aspects.legion5 = {
     # host NixOS configuration
     includes = [
-      den.aspects.bluetooth
-      den.aspects.audio
-      den.aspects.systemd
-      den.aspects.network-manager
+      den.aspects.system_desktop
       den.aspects.nvidia
       den.aspects.hyprland
       den.aspects.waybar
