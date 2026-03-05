@@ -14,6 +14,7 @@
       den.aspects.sddm
       den.aspects.vscode
       den.aspects.bibata-cursor
+      den.aspects.nerd-jetbrains-mono
     ];
 
     nixos =
