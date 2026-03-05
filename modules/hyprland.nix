@@ -13,6 +13,18 @@
             "LIBVA_DRIVER_NAME,nvidia"
             "__GLX_VENDOR_LIBRARY_NAME,nvidia"
           ];
+
+          exec-once = [
+            "nm-applet"
+            "blueman-applet"
+            "waybar"
+            "nvidia-offload hyprpaper"
+
+            # Special Workspaces
+            #"[workspace special:canvas silent] firefox https://uah.instructure.com"
+            #"[workspace special:jellyfin silent] env __GLX_VENDOR_LIBRARY_NAME=nvidia jellyfin-desktop"
+          ];
+
           "$mod" = "SUPER";
           bind = [
             "$mod, Return, exec, ghostty"
@@ -31,14 +43,14 @@
             ", XF86MonBrightnessDown, exec, brightnessctl s -d amdgpu_bl2 10%-"
 
             # Special Workspaces
-            "ALT, C, togglespecialworkspace, canvas"
-            "ALT, M, togglespecialworkspace, jellyfin"
+            #"ALT, C, togglespecialworkspace, canvas"
+            #"ALT, M, togglespecialworkspace, jellyfin"
 
             # Dark mode
-            "ALT, D, exec, hyprctl hyprpaper wallpaper 'eDP-2, ~/nixos-dotfiles/wallpapers/landscape2_night.png'"
+            #"ALT, D, exec, hyprctl hyprpaper wallpaper 'eDP-2, ~/nixos-dotfiles/wallpapers/landscape2_night.png'"
 
             # Light mode
-            "ALT, L, exec, hyprctl hyprpaper wallpaper 'eDP-2, ~/nixos-dotfiles/wallpapers/landscape2_day.png'"
+            #"ALT, L, exec, hyprctl hyprpaper wallpaper 'eDP-2, ~/nixos-dotfiles/wallpapers/landscape2_day.png'"
           ]
           ++ (
             # workspaces
