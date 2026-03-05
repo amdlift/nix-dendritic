@@ -42,6 +42,9 @@
         boot.kernelModules = [ "kvm-amd" ];
         boot.extraModulePackages = [ ];
 
+        # Fix amd backlight
+        boot.kernelParams = [ "amdgpu.backlight=0" ];
+
         fileSystems."/" =
           { device = "/dev/disk/by-uuid/c1a50ef4-9c21-4fa6-9bb2-0448b8dcf2d7";
             fsType = "ext4";
