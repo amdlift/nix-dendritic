@@ -1,6 +1,6 @@
 {
   den.aspects.nerd-jetbrains-mono = {
-    nixos = {
+    nixos = { pkgs, ... }: {
       fonts.packages = with pkgs; [
         nerd-fonts.jetbrains-mono
       ];
