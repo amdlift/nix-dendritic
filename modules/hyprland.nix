@@ -18,7 +18,7 @@
             "nm-applet"
             "blueman-applet"
             "waybar"
-            "nvidia-offload hyprpaper"
+            "hyprpaper"
 
             # Special Workspaces
             #"[workspace special:canvas silent] firefox https://uah.instructure.com"
