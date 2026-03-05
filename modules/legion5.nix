@@ -59,8 +59,8 @@
         
         hardware.cpu.amd.updateMicrocode = lib.mkDefault config.hardware.enableRedistributableFirmware;
 
-	# Flakes and nix-command
-	nix.settings.experimental-features = [ "nix-command" "flakes" ];
+        # Flakes and nix-command
+        nix.settings.experimental-features = [ "nix-command" "flakes" ];
       };
 
     # host provides default home environment for its users
