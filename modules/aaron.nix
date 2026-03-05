@@ -5,6 +5,7 @@
     includes = [
       den.provides.primary-user
       (den.provides.user-shell "bash")
+      den.aspects.git
     ];
 
     homeManager =

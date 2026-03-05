@@ -10,9 +10,10 @@
       den.aspects.network-manager
       den.aspects.nvidia
       den.aspects.hyprland
+      den.aspects.waybar
       den.aspects.sddm
       den.aspects.vscode
-      den.aspects.git
+      den.aspects.bibata-cursor
     ];
 
     nixos =
