@@ -7,5 +7,12 @@
       den.aspects.audio
       den.aspects.bluetooth
     ];
+
+    nixos = {
+      environment.systemPackages = with pkgs; [
+        networkmanagerapplet
+        blueman
+      ];
+    };
   };
 }
