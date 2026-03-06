@@ -6,6 +6,7 @@
 
       den.aspects.audio
       den.aspects.bluetooth
+      den.aspects.printing
     ];
 
     nixos =
