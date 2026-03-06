@@ -27,6 +27,7 @@
           pkgs.git
           pkgs.brightnessctl
           pkgs.firefox
+          pkgs.orca-slicer
         ];
 
         # Timezone
