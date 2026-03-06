@@ -12,6 +12,7 @@
       den.aspects.bibata-cursor
       den.aspects.nerd-jetbrains-mono
       den.aspects.steam
+      den.aspects.prism-launcher
     ];
 
     nixos =
