@@ -2,7 +2,10 @@
   den.aspects.nvidia = {
     nixos = {
       hardware.graphics.enable = true;
-      services.xserver.videoDrivers = [ "amdgpu" "nvidia" ];
+      services.xserver.videoDrivers = [
+        "amdgpu"
+        "nvidia"
+      ];
       hardware.nvidia.open = true;
 
       hardware.nvidia.prime = {

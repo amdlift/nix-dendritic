@@ -8,11 +8,13 @@
       den.aspects.bluetooth
     ];
 
-    nixos = { pkgs, ... }: {
-      environment.systemPackages = with pkgs; [
-        networkmanagerapplet
-        blueman
-      ];
-    };
+    nixos =
+      { pkgs, ... }:
+      {
+        environment.systemPackages = with pkgs; [
+          networkmanagerapplet
+          blueman
+        ];
+      };
   };
 }

@@ -1,9 +1,9 @@
 {
   den.aspects.hyprlauncher = {
     includes = [
-      
+
     ];
-    
+
     nixos = {
 
     };
