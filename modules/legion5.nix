@@ -11,6 +11,7 @@
       den.aspects.vscode
       den.aspects.bibata-cursor
       den.aspects.nerd-jetbrains-mono
+      den.aspects.steam
     ];
 
     nixos =
