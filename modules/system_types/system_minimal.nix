@@ -4,6 +4,7 @@
     includes = [
       den.aspects.systemd
       den.aspects.network-manager
+      den.aspects.ssh
     ];
   };
 }
