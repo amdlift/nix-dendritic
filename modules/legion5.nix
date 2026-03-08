@@ -28,6 +28,7 @@
           pkgs.brightnessctl
           pkgs.firefox
           pkgs.orca-slicer
+          pkgs.logseq
         ];
 
         # Timezone
