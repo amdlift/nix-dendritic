@@ -5,7 +5,7 @@
     ];
 
     nixos = { pkgs, ... }: {
-      environment.systemPackages = with pkgs; [ kdePackages.qtsvg kdePackages.dolphin ];
+      environment.systemPackages = with pkgs; [ kdePackages.qtsvg kdePackages.dolphin kdePackages.ark ];
     };
 
     homeManager = {
