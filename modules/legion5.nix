@@ -29,6 +29,7 @@
           pkgs.firefox
           pkgs.orca-slicer
           pkgs.logseq
+          pkgs.teams-for-linux
         ];
 
         # Timezone
