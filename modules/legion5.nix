@@ -30,6 +30,7 @@
           pkgs.orca-slicer
           pkgs.logseq
           pkgs.teams-for-linux
+          pkgs.pavucontrol
         ];
 
         # Timezone
