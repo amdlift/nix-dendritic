@@ -13,7 +13,6 @@
       den.aspects.nerd-jetbrains-mono
       den.aspects.steam
       den.aspects.prism-launcher
-      den.aspects.flatpak
     ];
 
     nixos =
@@ -32,6 +31,7 @@
           pkgs.logseq
           pkgs.teams-for-linux
           pkgs.pavucontrol
+          pkgs.gimp
         ];
 
         # Timezone
