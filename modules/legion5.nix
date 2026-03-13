@@ -32,6 +32,7 @@
           pkgs.teams-for-linux
           pkgs.pavucontrol
           pkgs.gimp
+          pkgs.unrar-free
         ];
 
         # Timezone
