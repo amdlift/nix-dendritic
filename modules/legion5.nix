@@ -33,6 +33,7 @@
           pkgs.pavucontrol
           pkgs.gimp
           pkgs.unrar-free
+          pkgs.heroic
         ];
 
         # Timezone
