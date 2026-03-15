@@ -34,7 +34,8 @@
           pkgs.gimp
           pkgs.unrar-free
           pkgs.heroic
-          pkgs.dotnet-sdk_10
+          pkgs.discord
+
         ];
 
         # Timezone
