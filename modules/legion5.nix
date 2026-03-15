@@ -44,6 +44,11 @@
         # Hostname
         networking.hostName = "legion5";
 
+        networking.firewall = {
+          enable = true;
+          allowedTCPPorts = [ 43000 ];
+        };
+
         # Allow unfree
         nixpkgs.config.allowUnfree = true;
         hardware.enableRedistributableFirmware = true;
