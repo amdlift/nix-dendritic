@@ -49,6 +49,13 @@
           allowedTCPPorts = [ 43000 ];
         };
 
+        programs.nix-ld = {
+          enable = true;
+          libraries = with pkgs; [
+            dotnet-runtime_9.0
+          ];
+        };
+
         # Allow unfree
         nixpkgs.config.allowUnfree = true;
         hardware.enableRedistributableFirmware = true;
