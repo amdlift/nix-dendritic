@@ -35,6 +35,7 @@
           pkgs.unrar-free
           pkgs.heroic
           pkgs.discord
+          pkgs.code-cursor
 
         ];
 
@@ -47,13 +48,6 @@
         networking.firewall = {
           enable = true;
           allowedTCPPorts = [ 43000 ];
-        };
-
-        programs.nix-ld = {
-          enable = true;
-          libraries = with pkgs; [
-            dotnet-runtime_9.0
-          ];
         };
 
         # Allow unfree
