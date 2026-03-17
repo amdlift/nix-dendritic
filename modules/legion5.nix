@@ -50,6 +50,8 @@
           allowedTCPPorts = [ 43000 ];
         };
 
+        services.flatpak.enable = true;
+
         # Allow unfree
         nixpkgs.config.allowUnfree = true;
         hardware.enableRedistributableFirmware = true;
