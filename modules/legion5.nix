@@ -35,6 +35,7 @@
           pkgs.unrar-free
           pkgs.discord
           pkgs.tmux
+          pkgs.abcde
 
         ];
 
