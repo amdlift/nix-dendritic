@@ -33,9 +33,8 @@
           pkgs.pavucontrol
           pkgs.gimp
           pkgs.unrar-free
-          pkgs.heroic
           pkgs.discord
-          pkgs.code-cursor
+          pkgs.tmux
 
         ];
 
