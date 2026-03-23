@@ -13,6 +13,7 @@
       den.aspects.nerd-jetbrains-mono
       den.aspects.steam
       den.aspects.prism-launcher
+      den.aspects.tailscale
     ];
 
     nixos =
