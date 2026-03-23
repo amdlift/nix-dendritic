@@ -8,6 +8,8 @@
       den.aspects.git
     ];
 
+    user.extraGroups = [ "disk" ];
+
     homeManager =
       { pkgs, ... }:
       {

@@ -36,7 +36,7 @@
           pkgs.discord
           pkgs.tmux
           pkgs.abcde
-
+          pkgs.rpi-imager
         ];
 
         # Timezone
@@ -46,8 +46,8 @@
         networking.hostName = "legion5";
 
         networking.firewall = {
-          enable = true;
-          allowedTCPPorts = [ 43000 ];
+          enable = false;
+          allowedTCPPorts = [ 43000 24642 ];
         };
 
         services.flatpak.enable = true;
